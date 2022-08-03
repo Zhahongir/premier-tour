@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 400;
+}
+
+body {
+    background-color: #141414;
+    color: #fff;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+// Blocks
+@import '../scss/fonts';
+@import '../scss/mixins';
+
+@import '../scss/blocks/header';
+@import '../scss/blocks/promo';
+@import '../scss/blocks/georgia';
+@import '../scss/blocks/about';
+@import '../scss/blocks/tours';
+@import '../scss/blocks/gallery';
+@import '../scss/blocks/advantages';
+@import '../scss/blocks/reviews';
+@import '../scss/blocks/parthers';
+@import '../scss/blocks/cooperation';
+@import '../scss/blocks/faq';
+@import '../scss/blocks/contacts';
+@import '../scss/blocks/footer';
+
+@import '../scss/blocks/modal';
+
+// Responsive
+@import '../scss/responsive/1199px';
+@import '../scss/responsive/991px';
+@import '../scss/responsive/767px';
+@import '../scss/responsive/575px';

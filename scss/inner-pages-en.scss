@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 400;
+}
+
+body {
+    background-color: #141414;
+    color: #fff;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+// Blocks
+@import '../scss/fonts';
+@import '../scss/mixins';
+
+@import '../scss/blocks-en/header';
+@import '../scss/blocks-en/intro';
+@import '../scss/blocks-en/program';
+@import '../scss/blocks-en/advantages';
+@import '../scss/blocks-en/total';
+@import '../scss/blocks-en/privacy';
+@import '../scss/blocks-en/footer';
+
+@import '../scss/blocks/modal';
+
+// Responsive
+@import '../scss/responsive/1199px';
+@import '../scss/responsive/991px';
+@import '../scss/responsive/767px';
+@import '../scss/responsive/575px';

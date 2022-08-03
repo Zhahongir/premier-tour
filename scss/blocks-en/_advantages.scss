@@ -1,0 +1,251 @@
+.advantages {
+    padding-top: 65px;
+    padding-bottom: 60px;
+    &__title {
+        font-size: 36px;
+        font-weight: 400;
+        font-family: 'RoadRadio';
+        text-align: center;
+    }
+    &__wrap {
+        margin-top: 40px;
+        display: grid;
+        grid-template: 1fr / 255px 255px 255px 255px;
+        grid-column-gap: 60px;
+        grid-row-gap: 40px;
+        justify-items: center;
+        &__item {
+            position: relative;
+            border: 1px solid #C4C4C4;
+            border-radius: 10px;
+            width: 255px;
+            height: 224px;
+            text-align: center;
+            align-items: center;
+            .icon-1 {
+                width: 50px;
+                height: 74px;
+                margin-top: 55px;
+            }
+            .icon-2 {
+                width: 65px;
+                height: 65px;
+                margin-top: 54px;
+            }
+            .icon-3 {
+                width: 70px;
+                height: 56px;
+                margin-top: 62px;
+            }
+            .icon-4 {
+                width: 70px;
+                height: 70px;
+                margin-top: 56px;
+            }
+            .icon-5 {
+                width: 65px;
+                height: 65px;
+                margin-top: 54px;
+            }
+            .icon-6 {
+                width: 77px;
+                height: 77px;
+                margin-top: 47px;
+            }
+            .icon-7 {
+                width: 77px;
+                height: 77px;
+                margin-top: 55px;
+            }
+            .icon-8 {
+                width: 80px;
+                height: 47px;
+                margin-top: 73px;
+            }
+            .icon-9 {
+                width: 61px;
+                height: 65px;
+                margin-top: 56px;
+            }
+            .icon-10 {
+                width: 60px;
+                height: 51px;
+                margin-top: 66px;
+            }
+            .food {
+                width: 68px;
+                height: 68px;
+                margin-top: 49px;
+            }
+            .alcohol {
+                width: 64px;
+                height: 91px;
+                margin-top: 43px;
+            }
+            .trip {
+                width: 63px;
+                height: 68px;
+                margin-top: 57px;
+            }
+            .tastings {
+                width: 64px;
+                height: 56px;
+                margin-top: 61px;
+            }
+            .car-comfortable {
+                width: 70px;
+                height: 70px;
+                margin-top: 53px;
+            }
+            .airplane {
+                width: 107px;
+                height: 60px;
+                margin-top: 64px;
+            }
+            .film {
+                width: 72px;
+                height: 70px;
+                margin-top: 54px;
+            }
+            .driver {
+                width: 66px;
+                height: 86px;
+                margin-top: 48px;
+            }
+            .icon-driver {
+                width: 66px;
+                height: 86px;
+                margin-top: 30px;
+            }
+            .balloon {
+                width: 76px;
+                height: 76px;
+                margin-top: 40px;
+            }
+            .yacht {
+                width: 86px;
+                height: 57px;
+                margin-top: 55px;
+            }
+            .program-icon {
+                width: 68px;
+                height: 68px;
+                margin-top: 57px;
+            }
+            .extreme {
+                width: 100px;
+                height: 86px;
+                margin-top: 45px;
+            }
+            .ticket {
+                width: 75px;
+                height: 53px;
+                margin-top: 75px;
+                fill: #c4c4c4;
+            }
+            .food-tasting {
+                width: 75px;
+                height: 75px;
+                margin-top: 50px;
+            }
+            .wifi {
+                width: 80px;
+                height: 80px;
+                margin-top: 46px;
+            }
+            .sea {
+                width: 110px;
+                height: 72px;
+                margin-top: 56px;
+            }
+            .icon-three {
+                margin-top: 40px !important;
+            }
+            .discount-icon {
+                width: 74px;
+                height: 74px;
+                margin-top: 55px;
+            }
+            .home {
+                width: 75px;
+                height: 75px;
+                margin-top: 45px;
+            }
+            .payback {
+                width: 95px;  
+                height: 95px;
+                margin-top: 38px;
+            }
+            .installment {
+                width: 75px;
+                height: 75px;
+                margin-top: 55px;
+            }
+            .euro {
+                width: 80px;
+                height: 80px;
+                margin-top: 45px;
+            }
+            .profitability {
+                width: 95px;
+                height: 95px;
+                margin-top: 43px;
+            }
+            .visa {
+                width: 95px;
+                height: 95px;
+                margin-top: 45px;
+            }
+            .passport {
+                width: 75px;
+                height: 75px;
+                margin-top: 50px;
+            } 
+            .nature {
+                width: 90px;
+                height: 90px;
+                margin-top: 46px;
+            }
+            .hotel {
+                width: 80px;
+                margin-top: 62px;   
+            }
+            .climate {
+                width: 75px;
+                height: 75px;
+                margin-top: 49px;
+            }
+            &__text {
+                font-size: 20px;
+                font-weight: 400;
+                color: #fff;
+            }
+            .adv-iskl {
+                font-size: 18px !important;
+            }
+            .title-adv-two {
+                position: absolute;
+                bottom: 33px;
+                text-align: center;
+                left: 50%;
+                transform: translate(-50%);
+                width: 100%;
+            }
+            .title-adv-one {
+                position: absolute;
+                bottom: 54px;
+                text-align: center;
+                left: 50%;
+                transform: translate(-50%);
+                width: 100%;
+            }
+        }
+    }
+}
+
+.advantages-pages {
+    background-color: #141414;
+    z-index: 3 !important;
+    position: relative;
+    padding-bottom: 0 !important;
+}

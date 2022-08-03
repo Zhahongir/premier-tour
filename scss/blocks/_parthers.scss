@@ -1,0 +1,55 @@
+.parthers {
+    padding-top: 50px;
+    &__relative {
+        position: relative;
+    }
+    &__title {
+        font-size: 36px;
+        font-weight: 400;
+        text-align: center;
+        font-family: 'RoadRadio';
+    }
+    .swiper5 {
+        width: 908px;
+        overflow: hidden;
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+    &__wrap {
+        &__inner {
+            &__slider {
+                width: 245px !important;
+                height: 180px !important;
+                &__image {
+                    width: 245px;
+                    height: 180px;
+                    border-radius: 10px;
+                    object-fit: cover;
+                }
+            }
+        }
+    }
+    &__btns {
+        &__icon {
+            width: 65px;
+            height: 65px;
+            transition: 0.2s ease-in;
+            cursor: pointer;
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+    }
+}
+
+.prev-slider5 {
+    position: absolute;
+    left: 0;
+    top: 135px;
+}
+
+.next-slider5 {
+    position: absolute;
+    right: 0;
+    top: 135px;
+}

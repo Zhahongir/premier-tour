@@ -1,0 +1,19 @@
+@mixin title {
+    .title {
+        font-family: 'RoadRadio';
+        color: #fff;
+        font-weight: 400;
+    }
+}
+
+@mixin box-shadow-yellow {
+    box-shadow: 0px 0px 20px rgba(251, 196, 24, 0.25);
+}
+
+@mixin yellow {
+    color: #FBC418;
+}
+
+@mixin yellow-bg {
+    background-color: #FBC418;
+}

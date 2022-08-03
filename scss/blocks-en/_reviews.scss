@@ -1,0 +1,60 @@
+.reviews {
+    padding-top: 30px;
+    padding-bottom: 55px;
+    background-image: url(../images/reviews.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 583px;
+    &__relative {
+        position: relative;
+    }
+    &__title {
+        font-size: 36px;
+        text-align: center;
+        font-weight: 400;
+        font-family: 'RoadRadio';
+    }
+    .swiper4 {
+        width: 1047px;
+        overflow: hidden;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+    &__wrap {
+        &__inner {
+            &__slider {
+                width: 217px !important;
+                height: 429px !important;
+                &__image {
+                    width: 217px;
+                    height: 429px;
+                }
+            }
+        }
+    }
+    &__btns {
+        &__icon {
+            width: 65px;
+            height: 65px;
+            transition: 0.2s ease-in;
+            cursor: pointer;
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+    }
+}
+
+.prev-slider4 {
+    position: absolute;
+    left: 0;
+    top: 236px;
+}
+
+.next-slider4 {
+    position: absolute;
+    right: 0;
+    top: 236px;
+}

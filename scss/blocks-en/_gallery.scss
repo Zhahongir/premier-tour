@@ -1,0 +1,165 @@
+.gallery {
+    margin-top: 70px;
+    &__title {
+        font-size: 36px;
+        font-family: 'RoadRadio';
+        font-weight: 400;
+        text-align: center;
+    }
+    &__wrap {
+        margin-top: 40px;
+        display: flex;
+        .tab__wrap {
+            .tabheader {
+                display: flex;
+                &__items {
+                    display: flex;
+                    flex-direction: column;
+                    text-align: right;
+                    margin-right: 40px;
+                    .tabheader__item {
+                        font-size: 36px;
+                        color: #615F61;
+                        font-family: 'RoadRadio';
+                        font-weight: 400;
+                        cursor: pointer;
+                        transition: 0.3s ease-in;
+                        &:not(:last-child) {
+                            margin-bottom: 24px;
+                        }
+                        &:hover {
+                            color: #fff;
+                        }
+                    }
+                    .tabheader__item_active {
+                        color: #fff !important;
+                    }
+                }
+                .tabcontent {
+                    width: 945px;
+                    &__wrap {
+                        display: flex;
+                        justify-content: space-between;
+                        position: relative;
+                        &__content {
+                            width: 760px;
+                            &__inner {
+                                &__items {
+                                    display: flex;
+                                    &__slide {
+                                        width: 350px;
+                                        height: 246px;
+                                        &__image {
+                                            width: 350px;
+                                            height: 246px;
+                                            object-fit: cover;
+                                        }
+                                    }
+                                }
+                            }
+                            .swiper {
+                                width: 760px;
+                                overflow: hidden;
+                            }
+                            .swiper2 {
+                                width: 760px;
+                                overflow: hidden;
+                            }
+                            .swiper3 {
+                                width: 760px;
+                                overflow: hidden;
+                            }
+                        }
+                        &__btns {
+                            display: flex;
+                            align-items: center;
+                            position: relative;
+                            width: 130px;
+                            margin-top: -40px;
+                            &__icon {
+                                cursor: pointer;
+                                transition: 0.2s ease-in;
+                                &:hover {
+                                    transform: scale(1.1);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+    display: none;
+}
+
+.gallery__pagination1 {
+    position: relative !important;
+    margin: 0 auto;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.gallery__pagination2 {
+    position: relative !important;
+    margin: 0 auto;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.gallery__pagination3 {
+    position: relative !important;
+    margin: 0 auto;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.swiper-pagination-current {
+    font-size: 32px;
+    color: #fff;
+    font-weight: 400;
+    font-family: 'RoadRadio';
+    margin-right: 5px;
+}
+
+.swiper-pagination-total {
+    font-size: 24px;
+    color: #615F61;
+    font-weight: 400;
+    font-family: 'RoadRadio';
+    margin-left: 5px;
+}
+
+.prev-slider1 {
+    margin-right: 20px;
+}
+
+.prev-slider2 {
+    margin-right: 20px;
+}
+
+.prev-slider3 {
+    margin-right: 20px;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from{opacity: 0.1;}
+    to{opacity: 1;}
+}

@@ -1,0 +1,109 @@
+.program {
+    padding-top: 70px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgba(229, 229, 229, 0.15);
+    .progress {
+        position: relative;
+        &__bar {
+            height: 100%;
+            width: 3px;
+            background-color: #fff;
+            color: #fff;
+            position: absolute;
+            z-index: 2;
+            left: 27px;
+            top: 100px;
+        }
+    }
+    &__title {
+        font-size: 36px;
+        font-weight: 400;
+        font-family: 'RoadRadio';
+        text-align: center;
+    }
+    &__wrap {
+        margin-top: 30px;
+        &__item {
+            display: flex;
+            margin-top: 50px;
+            &__progress {
+                text-align: center;
+                width: 58px;
+                height: 58px;
+                align-items: center;
+                border-radius: 50%;
+                background-color: #FBC418;
+                position: relative;
+                margin-right: 10px;
+                z-index: 5;
+                position: sticky;
+                top: 76.5px;
+                &__number {
+                    font-size: 28px;
+                    font-weight: 500;
+                    color: #1E1D1D;
+                    text-align: center;
+                    align-items: center;
+                    position: absolute;
+                    left: 50%;
+                    top: 50%;
+                    transform: translate(-50%, -50%);
+                }
+            }
+            &__inner {
+                &__content {
+                    margin-top: 15px;
+                    &__day {
+                        font-size: 24px;
+                        font-weight: 500;
+                    }
+                    &__contain {
+                        display: flex;
+                        margin-left: 80px;
+                        margin-top: 30px;
+                        &__image {
+                            width: 445px;
+                            height: 330px;
+                            object-fit: cover;
+                            z-index: 5;
+                            position: sticky;
+                            top: 77px;
+                        }
+                        &__text {
+                            width: 538px;
+                            margin-left: 70px;
+                            &__paragraph {
+                                font-size: 18px;
+                                font-weight: 500;
+                                &:not(:first-child) {
+                                    margin-top: 15px;
+                                }
+                                span {
+                                    @include yellow;
+                                    font-weight: 500;
+                                }
+                            }
+                            &__warning {
+                                @include yellow;
+                                text-transform: uppercase;
+                                font-weight: 500;
+                                margin-top: 15px;
+                                font-size: 18px;
+                                span {
+                                    font-weight: 500;
+                                }
+                            }
+                        }
+                    }
+                }
+            }   
+        }
+    }
+    &__divider {
+        width: 100%;
+        height: 10px;
+        background-color: rgba(229, 229, 229, 0.15);
+        z-index: 10;
+        position: relative;
+    }
+}

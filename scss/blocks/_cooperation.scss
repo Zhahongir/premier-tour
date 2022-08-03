@@ -1,0 +1,73 @@
+.cooperation {
+    padding-top: 75px;
+    &__wrap {
+        position: relative;
+        background-color: #030804;
+        width: 935px;
+        margin: 0 auto;
+        overflow: hidden;
+        border-radius: 10px;
+        &__content {
+            display: flex;
+            flex-direction: column;
+            margin-top: 65px;
+            margin-left: 50px;
+            margin-bottom: 73px;
+            position: relative;
+            z-index: 2;
+            &__title {
+                font-size: 32px;
+                font-weight: 400;
+                @include yellow;
+                font-family: 'RoadRadio';
+            }
+            &__text {
+                width: 480px;
+                font-size: 24px;
+                font-weight: 400;
+                margin-top: 24px;
+            }
+            &__btn {
+                border-radius: 10px;
+                background-color: #43D854;
+                box-shadow: 0px 0px 20px rgba(67, 216, 84, 0.2);
+                width: 267px;
+                text-align: center;
+                margin-top: 25px;
+                padding: 12px 22px;
+                transition: 0.3s ease-in;
+                &:hover {
+                    opacity: 0.9;
+                }
+                &__contain {
+                    display: flex;
+                    align-items: center;
+                    &__text {
+                        color: #fff;
+                        font-size: 18px;
+                        font-weight: 500;
+                        margin-right: 15px;
+                    }
+                    &__icon {
+                        width: 20px;
+                        height: 20px;
+                    }
+                }
+            }
+        }
+        &__bg {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            width: 665px;
+            height: 100%;
+            z-index: 1;
+        }
+    }
+}
+
+
+
+.cooperation__wrap__photo {
+    display: none;
+}

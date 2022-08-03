@@ -1,0 +1,89 @@
+.photo {
+    padding-top: 55px;
+    padding-bottom: 20px;
+    position: relative;
+    &__title {
+        font-size: 36px;
+        font-weight: 400;
+        font-family: 'RoadRadio';
+        text-align: center;
+    }
+    &__wrap {
+        width: 980px;
+        margin: 0 auto;
+        margin-top: 20px;
+        .swiper6 {
+            width: 980px;
+            overflow: hidden;
+            margin: 0 auto;
+        }
+        &__inner {
+            &__contains {
+                display: flex;
+                &__slide {
+                    width: 300px !important;
+                    height: 210px !important;
+                    &__photo {
+                        width: 300px;
+                        height: 210px;
+                        object-fit: contain;
+                    }
+                }
+                
+            }
+        }
+    }
+    &__btns {
+        width: 1200px;
+        position: absolute;
+        top: 180px;
+        margin: 0 auto;
+        &__icon__left {
+            position: absolute;
+            left: 0;
+            top: 0;
+            cursor: pointer;
+            transition: 0.2s ease-in;
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+        &__icon__right {
+            position: absolute;
+            right: 0;
+            cursor: pointer;
+            transition: 0.2s ease-in;
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+    }
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+    display: none;
+}
+
+.gallery__pagination6 {
+    position: relative !important;
+    margin: 0 auto;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.swiper-pagination-current {
+    font-size: 32px;
+    color: #fff;
+    font-weight: 400;
+    font-family: 'RoadRadio';
+    margin-right: 5px;
+}
+
+.swiper-pagination-total {
+    font-size: 24px;
+    color: #615F61;
+    font-weight: 400;
+    font-family: 'RoadRadio';
+    margin-left: 5px;
+}

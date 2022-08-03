@@ -1,0 +1,255 @@
+@media screen and (max-width: 1199px) {
+    .container {
+         width: 960px;
+    }
+
+    .promo {
+        height: 500px;
+        padding-top: 154px;
+        background-position: right;
+    }
+
+    .promo__wrap__title {
+        font-size: 48px;
+        width: 628px;
+    }
+
+    .georgia {
+        padding-top: 50px;
+    }
+
+    .georgia__wrap__up__content__text span {
+        font-size: 36px;
+    }
+
+    .georgia__wrap__up__image {
+        width: 381px;
+        height: 291px;
+    }
+
+    .georgia__wrap__down__image {
+        width: 445px;
+        height: 339px;
+    }
+
+    .georgia__wrap__down__content {
+        width: 480px;
+    }
+
+    .about {
+        padding-top: 35px;
+    }
+
+    .about__wrap {
+        position: relative;
+    }
+
+    .about__wrap__visual__image {
+        width: 442px;
+        height: 337px;
+    }
+
+    .about__wrap__content__title {
+        font-size: 36px;
+    }
+
+    .about__wrap__content {
+        width: 483px;
+    }
+
+    .about__wrap__visual {
+        position: sticky;
+        top: 80px;
+        left: 0;
+    }
+
+    .tours {
+        padding-top: 70px;
+    }
+
+    .tours .tours__list .tours__wrap__item {
+        width: 465px;
+    }
+
+    .tours .tours__list .tours__wrap__item__image {
+        border-radius: 10px 10px 0 0;
+    }
+
+    .tours .tours__list .tours__wrap {
+        grid-template: 1fr / 465px 465px;
+        grid-column-gap: 30px;
+    }
+
+    .tours .tours__list .tours__wrap__item__content .days8__btn {
+        margin-top: 82px !important;
+    }
+
+    .tours .tours__list .tours__wrap__item__content .extreme__btn {
+        margin-top: 51px !important;
+    }
+
+    .tours .tours__list .tours__wrap__item__content .best__btn {
+        margin-top: 51px !important;
+    }
+
+    .tours .tours__list .tours__wrap__item__content .discount__btn {
+        margin-top: 44px !important;
+    }
+
+    .tours .tours__list .tours__wrap__item__content__inner {
+        margin-top: 30px;
+    }
+
+    .tours .tours__list .tours__wrap__item__content__inner__link {
+        margin-right: 20px;
+    }
+
+    .tours .tours__list .tours__wrap__item__content .corporate__btn {
+        margin-top: 177px !important;
+    }
+
+    .tours .tours__list .tours__wrap__item__content .batumi__btn {
+        margin-top: 60px !important;
+    }
+
+    .tours .tours__list .tours__wrap__item__content .discovery__btn {
+        margin-top: 113px !important;
+    }
+
+    .gallery {
+        margin-top: 60px;
+    }
+
+    .gallery__wrap .tab__wrap .tabheader .tabcontent__wrap__content__inner__items__slide {
+        width: 300px !important;
+        height: 211px !important;
+    }
+
+    .gallery__wrap .tab__wrap .tabheader .tabcontent__wrap__content__inner__items__slide__image {
+        width: 300px;
+        height: 211px;
+    }
+
+    .gallery__wrap .tab__wrap .tabheader .tabcontent__wrap {
+        justify-content: flex-start;
+    }
+
+    .gallery__wrap .tab__wrap .tabheader .tabcontent__wrap__content {
+        width: 630px;
+    }
+
+    .gallery__wrap .tab__wrap .tabheader .tabcontent__wrap__content .swiper {
+        width: 630px;
+    }
+
+    .gallery__wrap .tab__wrap .tabheader__items .tabheader__item {
+        font-size: 24px;
+    }
+
+    .gallery__wrap .tab__wrap .tabheader__items .tabheader__item:not(:last-child) {
+        margin-bottom: 15px;
+    }
+
+    .gallery__wrap .tab__wrap .tabheader__items {
+        margin-right: 30px;
+    }
+
+    .gallery__wrap .tab__wrap .tabheader .tabcontent__wrap__btns {
+        margin-left: 9px;
+    }
+
+    .gallery__wrap .tab__wrap .tabheader .tabcontent__wrap__content .swiper2 {
+        width: 630px;
+    }
+
+    .gallery__wrap .tab__wrap .tabheader .tabcontent__wrap__content .swiper3 {
+        width: 630px;
+    }
+
+    .gallery__wrap .tab__wrap .tabheader .tabcontent {
+        width: 960px;
+    }
+
+    .advantages__wrap {
+        grid-template: 1fr / 255px 255px 255px;
+        grid-column-gap: 97px;
+        grid-row-gap: 30px;
+    }
+
+    .reviews .swiper4 {
+        width: 770px;
+    }
+
+    .parthers .swiper5 {
+        width: 760px;
+    }
+
+    .parthers__wrap__inner__slider__image {
+        width: 200px;
+        height: 147px;
+    }
+
+    .parthers__wrap__inner__slider {
+        width: 200px !important;
+        height: 147px !important;
+    }
+
+    .prev-slider5 {
+        top: 117px;
+    }
+
+    .next-slider5 {
+        top: 117px;
+    }
+
+    .contacts__wrap__content {
+        width: 496px;
+    }
+
+    .contacts__wrap__map {
+        width: 465px;
+    }
+
+    .footer__wrap__messenger {
+        display: none;
+    }
+
+    .georgia__wrap__divider {
+        width: 960px;
+    }
+
+    .gallery__wrap .tab__wrap .tabheader .tabcontent {
+        width: 789px;
+    }
+
+    .header__wrap__inner__logo {
+        margin-right: 160px;
+    }
+
+
+    // INNER PAGES
+
+    .program__wrap__item__inner__content__contain__image {
+        width: 420px;
+        height: 313px;
+    }
+
+    .program__wrap__item__inner__content__contain__text {
+        width: 336px;
+        margin-left: 25px;
+    }
+
+    .program__wrap__item__progress {
+        margin-right: 0;
+    }
+
+    .program__wrap__item__inner {
+        width: 891px;
+        margin-left: 10px;
+    }
+
+    .total {
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+}

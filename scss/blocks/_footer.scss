@@ -1,0 +1,197 @@
+.footer {
+    margin-top: 35px;
+    padding-bottom: 20px;
+    background-color: #1E1D1D;
+    position: relative;
+    z-index: 5;
+    &__wrap {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 30px;
+        &__logo {
+            &__icon {
+                width: 130px;
+                height: 53px;
+            }
+        }
+        &__nav {
+            &__title {
+                font-size: 24px;
+                font-weight: 400;
+                color: #fff;
+                font-family: 'RoadRadio';
+            }
+            &__content {
+                display: flex;
+                margin-top: 10px;
+                &__left {
+                    display: flex;
+                    flex-direction: column;
+                    margin-right: 65px;
+                    &__item {
+                        margin-bottom: 10px;
+                        &__link {
+                            font-size: 18px;
+                            color: #C4C4C4;
+                            font-weight: 500;
+                            transition: 0.2s ease-in;
+                            &:hover {
+                                color: #fff;
+                            }
+                        }
+                    }
+                }
+                &__right {
+                    display: flex;
+                    flex-direction: column;
+                    &__item {
+                        margin-bottom: 10px;
+                        &__link {
+                            font-size: 18px;
+                            color: #C4C4C4;
+                            font-weight: 500;
+                            transition: 0.2s ease-in;
+                            &:hover {
+                                color: #fff;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        &__contacts {
+            display: flex;
+            flex-direction: column;
+            &__title {
+                font-size: 24px;
+                font-weight: 400;
+                font-family: 'RoadRadio';
+                margin-bottom: 10px;
+            }
+            &__contain {
+                display: flex;
+                align-items: center;
+                margin-bottom: 15px;
+                &__telegram {
+                    margin-right: 15px;
+                    &__icon {
+                        width: 28px;
+                        height: 28px;
+                        transition: 0.2s ease-in;
+                        &:hover {
+                            transform: scale(1.1);
+                        }
+                    }
+                }
+                &__whatsapp {
+                    margin-right: 15px;
+                    &__icon {
+                        width: 28px;
+                        height: 28px;
+                        transition: 0.2s ease-in;
+                        &:hover {
+                            transform: scale(1.1);
+                        }
+                    }
+                }
+                &__viber {
+                    &__icon {
+                        width: 23px;
+                        height: 28px;
+                        transition: 0.2s ease-in;
+                        &:hover {
+                            transform: scale(1.1);
+                        }
+                    }
+                }
+            }
+            &__email {
+                display: flex;
+                align-items: center;
+                margin-bottom: 13px;
+                &__icon {
+                    width: 25px;
+                    height: 30px;
+                    margin-right: 10px;
+                }
+                &__link {
+                    font-size: 18px;
+                    color: #fff;
+                    font-weight: 500;
+                    transition: 0.2s ease-in;
+                    &:hover {
+                        @include yellow;
+                    }
+                }
+            }
+            &__privacy {
+                font-size: 18px;
+                font-weight: 500;
+                margin-bottom: 12px;
+                @include yellow;
+                transition: 0.2s ease-in;
+                &:hover {
+                    color: #fff;
+                }
+            }
+            &__force {
+                font-size: 18px;
+                color: #C4C4C4;
+                font-weight: 500;
+                cursor: pointer;
+                transition: 0.2s ease-in;
+                &:hover {
+                    color: #fff;
+                }
+            }
+        }
+        &__messenger {
+            &__title {
+                font-size: 24px;
+                font-weight: 400;
+                font-family: 'RoadRadio';
+                margin-bottom: 10px;
+            }
+            &__phone {
+                display: flex;
+                align-items: center;
+                margin-bottom: 20px;
+                &__icon {
+                    width: 15px;
+                    margin-right: 10px;
+                }
+                &__link {
+                    font-size: 18px;
+                    color: #fff;
+                    font-weight: 500;
+                    transition: 0.2s ease-in;
+                    &:hover {
+                        @include yellow;
+                    }
+                }
+                &__flag {
+                    margin-left: 10px;
+                    width: 24px;
+                }
+            }
+        }
+    }
+    &__rules {
+        font-size: 16px;
+        font-weight: 500;
+        color: #C4C4C4;
+        text-align: center;
+        margin-top: 25px;
+    }
+    &__data {
+        font-size: 16px;
+        font-weight: 500;
+        color: #C4C4C4;
+        text-align: center;
+        margin-top: 10px;
+    }
+}
+
+.lang-kz-footer {
+    width: 30px;
+}

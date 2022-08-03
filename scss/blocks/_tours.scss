@@ -1,0 +1,243 @@
+.tours {
+    padding-top: 75px;
+    &__title {
+        font-family: 'RoadRadio';
+        font-size: 48px;
+        text-align: center;
+        font-weight: 400;
+    }
+    .tours__list {
+        margin-top: 35px;
+        .tours__wrap {
+            display: grid;
+            grid-template: 1fr / 550px 550px;
+            grid-column-gap: 100px;
+            grid-row-gap: 40px;
+            margin-top: 45px;
+            &:first-child {
+                margin-top: 0px !important;
+            }
+            margin-top: 45px;
+            &__item {
+                position: relative;
+                z-index: 10;
+                background-color: #1E1D1D;
+                border-radius: 10px;
+                width: 550px;
+                padding-bottom: 30px;
+                border-radius: 10px 10px 0 0;
+                overflow: hidden;
+                &__image {
+                    width: 100%;
+                    height: 347px;
+                    object-fit: cover;
+                }
+                &__content {
+                    padding: 20px 15px 0 15px;
+                    &__title {
+                        font-size: 36px;
+                        font-weight: 400;
+                        font-family: 'RoadRadio';
+                        @include yellow;
+                    }
+                    .church__title {
+                        font-size: 35px !important;
+                    }
+                    &__calendar {
+                        display: flex;
+                        align-items: center;
+                        margin-top: 15px;
+                        &__icon {
+                            width: 25px;
+                            height: 25px;
+                            margin-right: 12px;
+                        }
+                        &__data {
+                            font-size: 18px;
+                            font-family: 'RoadRadio';
+                            font-weight: 400;
+                        }
+                    }
+                    &__description {
+                        font-size: 18px;
+                        font-weight: 400;
+                        margin-top: 23px;
+                    }
+                    &__subtitle {
+                        font-size: 18px;
+                        font-weight: 400;
+                        margin-top: 10px;
+                    }
+                    &__more {
+                        font-size: 18px;
+                        @include yellow;
+                        font-weight: 400;
+                        background-color: transparent;
+                        border: none;
+                        margin-top: 10px;
+                        cursor: pointer;   
+                        padding-bottom: 3px;
+                        border-bottom-style: dotted;
+                    }
+                    &__inner {
+                        display: flex;
+                        align-items: center;
+                        margin-top: 30px;
+                        &__link {
+                            @include yellow-bg;
+                            padding: 12px 18px;
+                            border-radius: 10px;
+                            box-shadow: 0px 0px 20px rgba(49, 129, 227, 0.2);
+                            transition: 0.3s ease-in;
+                            margin-right: 30px;
+                            position: relative;
+                            overflow: hidden;
+                            &:hover {
+                                background-color: #fff;
+                            }
+                            &__contain {
+                                display: flex;
+                                align-items: center;
+                                &__text {
+                                    font-size: 18px;
+                                    color: #1E1D1D;
+                                    font-weight: 500;
+                                    text-transform: uppercase;
+                                    margin-right: 10px;
+                                }
+                                &__icon {
+                                    width: 20px;
+                                    height: 20px;
+                                }
+                            }
+                            &:before {
+                                content: "";
+                                display: block;
+                                width: 100%;
+                                height: 100%;
+                                position: absolute;
+                                top: 0;
+                                left: 0;
+                                background: #fa4923;
+                                opacity: 0;
+                                z-index: 1;
+                                -webkit-transition: ease 0.3s;
+                                transition: ease 0.3s;
+                            }
+                            &:after {
+                                content: "";
+                                display: block;
+                                width: 15px;
+                                height: 300px;
+                                margin-left: 60px;
+                                background: #fff;
+                                position: absolute;
+                                left: -40px;
+                                top: -150px;
+                                z-index: 1;
+                                -webkit-transform: rotate(45deg);
+                                transform: rotate(45deg);
+                                -webkit-transition: all 0.1s;
+                                transition: all 0.1s;
+                                -webkit-animation-name: slideme;
+                                animation-name: slideme;
+                                -webkit-animation-duration: 3s;
+                                animation-duration: 3s;
+                                -webkit-animation-delay: 0.05s;
+                                animation-delay: 0.05s;
+                                -webkit-animation-timing-function: ease-in-out;
+                                animation-timing-function: ease-in-out;
+                                -webkit-animation-iteration-count: infinite;
+                                animation-iteration-count: infinite;
+                            }
+                            @keyframes slideme { 
+                                0% { 
+                                    left: -30px; 
+                                    margin-left: 0px; 
+                                }
+                                30% { 
+                                    left: 110%; 
+                                    margin-left: 80px; 
+                                }
+                                100% { 
+                                    left: 110%; 
+                                    margin-left: 80px; 
+                                } 
+                            }
+                        }
+                        &__price {
+                            font-size: 24px;
+                            font-weight: 400;
+                            font-family: 'RoadRadio';
+                            color: #C4C4C4;
+                            span {
+                                font-family: 'RoadRadio';
+                                font-size: 28px;
+                                font-weight: 400;
+                                @include yellow;
+                            }
+                        }
+                    }
+                    .weekend__btn {
+                        margin-top: 30px !important;
+                    }
+                    .days8__btn {
+                        margin-top: 81px !important;
+                    }
+                    .extreme__btn {
+                        margin-top: 51px !important;
+                    }
+                    .svaneti__btn {
+                        margin-top: 62px !important;
+                    }
+                    .batumi__btn {
+                        margin-top: 41px !important;
+                    }
+                    .batumi-relax__btn {
+                        margin-top: 41px !important;
+                    }
+                    .best__btn {
+                        margin-top: 138px !important;
+                    }
+                    .extreme__btn {
+                        margin-top: 50px !important;
+                    }
+                    .discovery__btn {
+                        margin-top: 30px !important;
+                    }
+                    .tbilisi-batumi__btn {
+                        margin-top: 30px !important;
+                    }
+                    .discount__btn {
+                        margin-top: 60px !important;
+                    }
+                    .corporate__btn {
+                        margin-top: 30px !important;
+                    }
+                    .invest-btn {
+                        margin-top: 129px !important;
+                    }
+                    .church__btn {
+                        margin-top: 52px !important;
+                    }
+                }
+            }
+        }
+    }
+}
+
+#weddingTextOne {
+    display: none;
+}
+
+#weddingTextTwo {
+    display: none;
+}
+
+#visaTextOne {
+    display: block;
+}
+
+#btnVisaMore {
+    display: none;
+}

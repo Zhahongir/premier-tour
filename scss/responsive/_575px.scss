@@ -1,0 +1,755 @@
+@media screen and (max-width: 575px) {
+    .container {
+        width: 100% !important;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .header__wrap__inner__logo {
+        display: none;
+    }
+
+    .promo {
+        padding-top: 125px;
+        background-position: 100%;
+        height: 433px;
+        background-position: right;
+    }
+
+    .promo__wrap__title {
+        font-size: 30px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .promo__wrap__description {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .promo__wrap__btns {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .promo__wrap__btns__call {
+        margin-right: 0;
+    }
+
+    .promo__wrap__btns__video {
+        margin-top: 20px;
+    }
+
+    .georgia {
+        padding-top: 20px;
+    }
+
+    .georgia__wrap__up__content__divider {
+        width: 320px;
+    }
+
+    .georgia__wrap__up__content__text {
+        width: 100%;
+        text-align: center;
+        font-size: 18px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .georgia__wrap__up__content__text span {
+        font-size: 24px;
+    }
+
+    .georgia__wrap__up__image {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .georgia__wrap__down__content {
+        width: 100%;
+    }
+
+    #georgiaTextMob {
+        display: none; 
+    }
+
+    .btn-more {
+        display: flex;
+        justify-content: center;
+        font-size: 16px;
+        color: #1E1D1D;
+        font-weight: 500;
+        text-align: center;
+        padding: 8px 37px;
+        text-transform: uppercase;
+        @include yellow-bg;
+        border-radius: 10px;
+        align-items: center;
+        margin: 0 auto;
+        margin-top: 15px;
+        border: none;
+        box-shadow: 0px 0px 20px rgba(251, 196, 24, 0.25);
+    }
+
+    .georgia__wrap__down__content__subtitle {
+        margin-top: 15px;
+    }
+
+    .georgia__wrap__down__image {
+        display: none;
+    }
+
+    .georgia__wrap__divider {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .about__wrap__visual__btn {
+        margin-top: 15px;
+    }
+
+    .about__wrap__visual__btn__text {
+        font-size: 18px;
+    }
+
+    .about__wrap__visual__btn__icon {
+        width: 25px;
+        height: 25px;
+    }
+
+    .about__wrap__content__title {
+        font-size: 28px;
+    }
+
+    .about__wrap__content {
+        margin-top: 25px;
+    }
+
+    #aboutOne {
+        display: none;
+    }
+
+    #aboutTwo {
+        display: none;
+    }
+
+    #aboutThree {
+        display: none;
+    }
+
+    .tours__title {
+        font-size: 28px;
+    }
+
+    .tours .tours__list .tours__wrap__item {
+        width: 320px;
+    }
+
+    .tours .tours__list .tours__wrap {
+        grid-template: 1fr / 320px;
+        grid-row-gap: 30px;
+    }
+
+    .tours .tours__list .tours__wrap__item__content__inner {
+        flex-direction: column;
+        text-align: left;
+        align-items: baseline;
+    }
+
+    .tours .tours__list .tours__wrap__item__content__inner__link {
+        order: 2;
+        margin-top: 15px;
+    }
+
+    .tours .tours__list .tours__wrap__item__content .days8__btn {
+        margin-top: 15px !important;
+    }
+
+    .tours .tours__list .tours__wrap__item__content__inner {
+        margin-top: 15px !important;
+    }
+
+    .tours .tours__list .tours__wrap__item__content .best__btn {
+        margin-top: 15px !important;
+    }
+
+    .tours .tours__list .tours__wrap__item__content .extreme__btn {
+        margin-top: 15px !important;
+    }
+
+    .tours .tours__list .tours__wrap__item__content__inner {
+        margin-top: 15px !important;
+    }
+
+    .tours .tours__list .tours__wrap__item__content__inner {
+        margin-top: 15px !important;
+    }
+
+    .tours .tours__list .tours__wrap__item__content .discovery__btn {
+        margin-top: 15px !important;
+    }
+
+    .tours .tours__list .tours__wrap__item__content .batumi-relax__btn {
+        margin-top: 15px !important;
+    }
+
+    .tours .tours__list .tours__wrap__item__content__description {
+        margin-top: 20px;
+    }
+
+    .tours .tours__list .tours__wrap__item__content .corporate__btn {
+        margin-top: 15px !important;
+    }
+
+    .tours .tours__list .tours__wrap__item__content .discount__btn {
+        margin-top: 15px !important;
+    }
+
+    .tours .tours__list .tours__wrap__item__content .weekend__btn {
+        margin-top: 15px !important;
+    }
+
+    .tours .tours__list .tours__wrap__item__content .church__btn {
+        margin-top: 15px !important;
+    }
+
+    #visaTextOne {
+        display: none;
+    }
+    
+    #btnVisaMore {
+        display: block;
+    }
+
+    .tours .tours__list .tours__wrap__item__image {
+        height: 205px;
+    }
+
+    .tours .tours__list .tours__wrap__item__content__title {
+        font-size: 24px;
+    } 
+
+    .tours .tours__list .tours__wrap__item__content .church__title {
+        font-size: 24px !important;
+    }
+
+    .gallery__title {
+        font-size: 28px;
+    }
+
+    .gallery__wrap .tab__wrap .tabheader .tabcontent__wrap__btns {
+        display: none;
+    }
+
+    .gallery__wrap .tab__wrap .tabheader__items .tabheader__item {
+        font-size: 20px;
+    }
+
+    .gallery__wrap .tab__wrap .tabheader__items {
+        width: 320px;
+    }
+
+    .gallery__wrap .tab__wrap .tabheader .tabcontent__wrap__content .swiper {
+        width: 320px;
+    }
+
+    .gallery__wrap .tab__wrap .tabheader .tabcontent__wrap__content .swiper2 {
+        width: 320px;
+    }
+
+    .gallery__wrap .tab__wrap .tabheader .tabcontent__wrap__content .swiper3 {
+        width: 320px;
+    }
+
+    .gallery__wrap .tab__wrap .tabheader .tabcontent__wrap__content__inner__items__slide {
+        width: 320px !important;
+        height: 225px !important;
+    }
+
+    .gallery__wrap .tab__wrap .tabheader .tabcontent__wrap__content__inner__items__slide__image {
+        width: 320px;
+        height: 225px;
+    }
+
+    .gallery__wrap .tab__wrap .tabheader .tabcontent {
+        width: 320px;
+    }
+
+    .gallery__wrap .tab__wrap .tabheader .tabcontent__wrap__content {
+        width: 320px;
+    }
+
+    .advantages {
+        padding-top: 50px;
+    }
+
+    .advantages__title {
+        font-size: 28px;
+    }
+
+    .advantages__wrap {
+        grid-template: 1fr / 255px;
+        grid-row-gap: 25px;
+    }
+
+    .reviews {
+        padding-bottom: 45px;
+        height: 518px;
+    }
+
+    .reviews .swiper4 {
+        width: 200px;
+    }
+
+    .reviews__title {
+        font-size: 28px;
+    }
+
+    .reviews__wrap__inner__slider__image {
+        width: 200px;
+        height: 396px;
+    }
+
+    .reviews__wrap__inner__slider {
+        width: 200px !important;
+        height: 396px !important;
+    }
+
+    .parthers .swiper5 {
+        width: 180px;
+    }
+
+    .parthers__title {
+        font-size: 28px;
+    }
+
+    .parthers__wrap__inner__slider__image {
+        width: 180px;
+        height: 132px;
+    }
+
+    .next-slider5 {
+        top: 127px;
+    }
+
+    .prev-slider5 {
+        top: 127px;
+    }
+
+    .cooperation__wrap {
+        min-height: auto;
+        padding-bottom: 0;
+    }
+
+
+    .cooperation__wrap__content__title {
+        font-size: 28px;
+    }
+
+    .cooperation__wrap__photo {
+        position: relative;
+        margin: 0 auto;
+        margin-top: 20px;
+        padding-top: 0px;
+        padding-bottom: 0;
+    }
+
+    .cooperation__wrap__content {
+        flex-direction: column;
+    }
+
+    .cooperation__wrap__content__text {
+        margin-top: 15px;
+    }
+
+    .cooperation__wrap__content__text {
+        width: 100%;
+    }
+
+    .faq__title {
+        font-size: 28px;
+    }
+
+    .faq__wrap__inner__accardeon__control__title {
+        font-size: 20px;
+    }
+
+    .open .faq__wrap__inner__accardeon__content {
+        margin-left: 0;
+    }
+
+    .contacts__wrap__content {
+        padding: 20px 15px 0 15px;
+        height: 512px;
+    }
+
+    .footer__wrap__nav__title {
+        text-align: left;
+    }
+
+    .footer__wrap__messenger {
+        margin-top: 20px;
+    }
+
+    .footer__wrap__contacts {
+        margin-top: 20px;
+    }
+
+    .header__wrap__inner__btn {
+        font-size: 14px;
+    }
+
+    .menu__wrap__header__lang__link {
+        font-size: 14px;
+    }
+
+    .header {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    
+    .header__wrap__inner__lang__link {
+        font-size: 14px;
+    }
+
+    .header__wrap__inner__btn {
+        padding-top: 5px;
+    }
+
+    .menu__wrap__header__close {
+        order: 3;
+    }
+
+    .menu {
+        padding-top: 0;
+    }
+
+    .menu__wrap__header__logo__icon {
+        width: 120px;
+        height: 49px;
+        padding-top: 10px;
+    }
+
+    .menu__wrap__header__lang {
+        padding-top: 5px;
+    }
+
+    .menu__wrap__content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .menu__wrap__content__nav__item {
+        margin-bottom: 20px;
+    }
+
+    .menu__wrap__content__nav__item__link {
+        font-size: 18px;
+    }
+
+    .call__wrap__messenger__telegram {
+        width: 250px;
+        padding: 12px 10px;
+    }
+    .call__wrap__messenger__whatsapp {
+        width: 250px;
+        padding: 12px 10px;
+    }
+    .call__wrap__messenger__viber {
+        width: 250px;
+        padding: 12px 10px;
+    }
+
+    .call__wrap {
+        width: 95%;
+    }
+
+    .call__wrap__title {
+        font-size: 22px;
+    }
+
+    .call__wrap__subtitle {
+        font-size: 16px;
+    }
+
+    .call__wrap__contacts {
+        margin-top: 15px;
+    }
+
+    .tours .tours__list .tours__wrap__item__content__inner__price span {
+        font-size: 24px;
+    }
+
+    .tab__wrap {
+        margin: 0 auto;
+    }
+
+    .total__manager {
+        width: 100%;
+        font-size: 18px;    
+    }
+
+    .tours .tours__list .tours__wrap__item__content .invest-btn {
+        margin-top: 15px !important; 
+    }
+
+    .photo__wrap .swiper6 {
+        width: 320px;
+    }
+
+    .photo__wrap__inner__contains__slide {
+        width: 320px !important;
+        height: 225px !important;
+    }
+
+    .photo__wrap__inner__contains__slide__photo {
+        width: 320px !important;
+        height: 225px !important;
+    }
+
+    .photo__wrap {
+        width: 320px;
+    }
+
+    .photo__btns {
+        display: none;
+    }
+
+    .photo {
+        padding-top: 45px;
+    }
+
+    .photo__title {
+        font-size: 28px;
+    }
+
+    .total-wedding {
+        padding-top: 10px !important;
+    }
+
+
+    // INNER PAGES
+    .intro {
+        padding-top: 100px;
+    }
+
+    .intro__title {
+        font-size: 28px;
+    }
+
+    .intro__cover {
+        width: 100%;
+        height: 250px;
+    }
+
+    .intro__price {
+        font-size: 27px;
+        margin-top: 25px;
+    }
+
+    .intro__subtitle {
+        font-size: 18px;
+    }
+
+    .intro__condition {
+        font-size: 18px;
+    }
+
+    .intro__warning {
+        width: 100%;
+        padding: 15px 10px 15px 10px;
+    }
+
+    .intro__warning__title {
+        font-size: 20px;
+    }
+
+    .intro__btns {
+        margin-top: 20px;
+    }
+
+    .intro__btns__pages {
+        flex-direction: column;
+    }
+
+    .intro__btns__pages__booking {
+        margin-right: 0;
+    }
+
+    .intro__btns__pages__ticket {
+        margin-top: 0px;
+    }
+
+    .program {
+        padding-top: 50px;
+    }
+
+    .program__title {
+        font-size: 28px;
+    }
+
+    .program__wrap__item__inner__content__contain__image {
+        width: 100%;
+        height: 220px;
+    }
+
+    .program__wrap__item__inner {
+        width: 90%;
+    }
+
+    .program__wrap__item__progress__number {
+        font-size: 20px;
+    }
+
+    .program__wrap__item__progress {
+        width: 10%;
+        height: 35px;
+        top: 59px;
+    }
+
+    .program__wrap__item__inner__content__day {
+        font-size: 20px;
+    }
+
+    .program__wrap__item__inner__content {
+        margin-top: 5px;
+    }
+
+    .total__price {
+        font-size: 27px;
+    }
+
+    .total__btns {
+        margin-top: 20px;
+    }
+
+    .total__btns__pages__booking {
+        margin-right: 0;
+    }
+
+    .total__btns__pages {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .total__btns__pages__ticket {
+        margin-top: 0px;
+    }
+
+    .total__subtitle {
+        font-size: 18px;
+    }
+
+    .total__condition {
+        font-size: 18px;
+    }
+
+    .program .progress__bar  {
+        left: 6.5%;
+    }
+
+    .intro__description {
+        font-size: 22px;
+        margin-top: 20px;
+    } 
+
+    .intro__list__item__text {
+        font-size: 20px;
+    }
+
+    .intro__list__item {
+        margin-top: 10px;
+        margin-bottom: 25px;
+    }
+
+    .intro__list {
+        margin-top: 20px !important;
+    }
+
+    .intro__list__item__circle {
+        margin-right: 15px;
+    }
+
+
+
+    // PRIVACY
+    .privacy__title {
+        font-size: 24px;
+    }
+
+    .privacy__wrap__title {
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .video__wrap {
+        width: 100%;
+    }
+
+    .video__wrap__inner {
+        width: 100%;
+    }
+
+    #iframeVideo {
+        width: 100%;
+    }
+
+    .about__video {
+        width: 100%;
+        height: 240px;
+    }
+
+    .program__wrap__item__inner__content__contain__text__warning {
+        font-size: 16px;
+    }
+
+    .contacts__wrap__content__contain__phone__country {
+        font-size: 18px;
+    }
+
+    .contacts__wrap__content {
+        padding: 20px 10px 0 10px;
+        height: 522px;
+    }
+
+    .contacts__wrap__content__contain__phone__icon {
+        width: 15px;
+        height: 25px;
+        margin-right: 5px;
+    }
+
+    .contacts__wrap__content__contain__phone__link {
+        font-size: 16px;
+    }
+
+    .contacts__wrap__content__contain__phone__country {
+        font-size: 14px;
+    }
+
+    .contacts__wrap__content__contain__address__link {
+        font-size: 16px;
+    }
+
+    .contacts__wrap__content__contain__address__icon {
+        margin-right: 10px;
+        width: 20px;
+        height: 27px;
+    }
+
+    .contacts__wrap__content__contain__mail__link {
+        font-size: 18px;
+    }
+
+    .contacts__wrap__content__contain__mail__icon {
+        margin-right: 10px;
+    }
+
+    .contacts__wrap__content__messenger__title {
+        font-size: 22px;
+    }
+
+    .tours .tours__list .tours__wrap__item__content .tbilisi-batumi__btn {
+        margin-top: 15px !important;
+    }
+}
